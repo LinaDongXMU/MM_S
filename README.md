@@ -9,8 +9,8 @@
 3. **Prepare data for ΔvinaXGB calculations.**
    - Create a folder (e.g., `examples`) to store the structural data you wish to analyze.
 
-4. **Setup ¦¤vinaXGB.**
-   - Install ¦¤vinaXGB and place `get_SASA.py` in the `deltaVinaXGB-Light/DXGB` directory.
+4. **Setup deltavinaXGB.**
+   - Install deltavinaXGB and place `get_SASA.py` in the `deltaVinaXGB-Light/DXGB` directory.
 
 5. **Adjust paths in `get_SASA.py` script.**
    - Modify the path in `get_SASA.py` to point to the `examples` folder created in step 3.
@@ -32,3 +32,4 @@
 10. **Review final results.**
 
     - In `all.csv`, 'P-DP+S' and 'G+S_atoms' represent the recommended improved MM/GBSA and MM/PBSA methods' results discussed in the article.
+
