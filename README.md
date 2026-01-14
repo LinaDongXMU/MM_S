@@ -126,17 +126,18 @@ MM_S relies on the following external tools:
 
     - Download MSMS from <http://mgltools.scripps.edu/downloads>
 
-    - mkdir msms
-
-    - tar -xvzf msms_i86_64Linux2_2.6.1.tar.gz -C msms
-
-    - cd msms
-
-    - cp msms.x86_64Linux2.2.6.1 msms
+```
+mkdir msms
+tar -xvzf msms_i86_64Linux2_2.6.1.tar.gz -C msms
+cd msms
+cp msms.x86_64Linux2.2.6.1 msms
+```
 
     - Ensure msms is callable from the command line:
-
-    - msms -h
+    
+```
+msms -h
+```
 
 2.  **OpenBabel (with PyBel interface)**
 
@@ -145,7 +146,8 @@ MM_S relies on the following external tools:
 
     - Recommended installation:
 
-    - conda install -c conda-forge openbabel
+```conda install -c conda-forge openbabel
+```
 
 3.  **Python ≥ 3.7**
 
@@ -159,11 +161,11 @@ MM_S relies on the following external tools:
 
 Before running MMPBSA.py with MM_S enabled, set:
 
+```
 export MM_S_HOME=/path/to/MM_S
-
 export MMS_ATMTYPENUMBERS=\$MM_S_HOME/sasa/atmtypenumbers
-
 export PATH=\$MM_S_HOME/sasa:\$PATH
+```
 
 These variables are required to:
 
