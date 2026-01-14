@@ -133,7 +133,9 @@ cd msms
 cp msms.x86_64Linux2.2.6.1 msms
 ```
 
+
     - Ensure msms is callable from the command line:
+   
     
 ```
 msms -h
@@ -146,7 +148,8 @@ msms -h
 
     - Recommended installation:
 
-```conda install -c conda-forge openbabel
+```
+conda install -c conda-forge openbabel
 ```
 
 3.  **Python ≥ 3.7**
